@@ -3,6 +3,27 @@ body {
     color: white;
 }
 
+.xlarge {
+    font-size: xxx-large;
+}
+
+.larger {
+    font-size: 35px;
+}
+
+.large {
+    font-size: 30px;
+}
+
+.text_block {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p {
+    font-size: 24px;
+}
+
 #carousel {
     display: flex;
     justify-content: center;
@@ -19,6 +40,11 @@ body {
     padding: 5px;
 }
 
+#caro_img {
+    width: 600px;
+    height: 400px;
+}
+
 #sidebar {
     background-color: goldenrod;
     color: black;
@@ -26,7 +52,59 @@ body {
     top:0;
     left:0;
     height: 100%;
+    width: 17%;
 }
+
+#menu_btn {
+    display: block;
+    outline: black;
+    outline-width: medium;
+    outline-style: solid;
+    padding-left: 10px;
+}
+
+#fhs {
+    display: flex;
+    justify-content: center;
+}
+
+#cs_magnet {
+    display: flex;
+    justify-content: center;
+}
+
+#top_bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+#top_bar:hover {
+    background-color: white;
+}
+
+.dropdown_btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    color: black;
+}
+
+.dropdown_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 17px;
+}
+
+
+
+.hidden {
+    display: none;
+}
+
 
 #robo_imgs img {
     height: 200px;
