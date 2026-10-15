@@ -23,3 +23,11 @@ function forwAr() {
     }
     document.getElementById("caro_img").src = urls[index];
 }
+
+document.getElementById("side_class").addEventListener("click", function () {
+    document.getElementById("dropdown_classes").classList.toggle("hidden")
+});
+
+document.getElementById("side_clubs").addEventListener("click", function () {
+    document.getElementById("dropdown_clubs").classList.toggle("hidden")
+});

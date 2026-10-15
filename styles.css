@@ -35,7 +35,7 @@ p {
 }
 
 #barrow, #farrow {
-    background-color: goldenrod;
+    background-color: gold;
     color: black;
     padding: 5px;
 }
@@ -46,7 +46,7 @@ p {
 }
 
 #sidebar {
-    background-color: goldenrod;
+    background-color: gold;
     color: black;
     position: fixed;
     top:0;
@@ -56,11 +56,9 @@ p {
 }
 
 #menu_btn {
-    display: block;
-    outline: black;
-    outline-width: medium;
-    outline-style: solid;
-    padding-left: 10px;
+    display: flex;
+    outline: black solid;
+
 }
 
 #fhs {
@@ -90,15 +88,37 @@ p {
     flex-direction: column;
     padding: 15px;
     color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.dropdown_btn:hover {
+    background-color: white;
+}
+
+.nav_btn:hover {
+    background-color: white;
 }
 
 .dropdown_container {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-left: 17px;
+    text-align: center;
+    margin-top: 10px;
 }
 
+.nav_btn {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 5px 15px;
+    margin: 5px 0;
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: black;
+}
 
 
 .hidden {

@@ -6,32 +6,34 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1 class="xlarge">Computer Science Magnet Program</h1>
+<h1 class="xlarge" id="very_top">Computer Science Magnet Program</h1>
 
 <div id="sidebar">
     <p id="menu_btn">≣</p>
     <div id="top_bar">
-        <h2 id="cs_magnet">Computer Science Magnet Program</h2>
-        <h3 id="fhs">Freehold High School</h3>
+        <a href="#very_top">
+            <h2 id="cs_magnet">Computer Science Magnet Program</h2>
+            <h3 id="fhs">Freehold High School</h3>
+        </a>
     </div>
-    <h4 class="dropdown_btn"><a href="#cd_title">Courses in the Program</a></h4>
-    <div class="dropdown_container">
+    <h4 class="dropdown_btn" id="side_class"><a href="#cd_title">Courses in the Program</a></h4>
+    <div class="dropdown_container hidden" id="dropdown_classes">
         <h5 class="nav_btn"><a href="#csp">AP Computer Science Principles</a></h5>
         <h5 class="nav_btn"><a href="#csa">AP Computer Science A</a></h5>
         <h5 class="nav_btn"><a href="#dsa">Data Structures & Algorithms</a></h5>
         <h5 class="nav_btn"><a href="#capstone">Honors Computer Science Seminar Capstone: Web, Data, and AI</a></h5>
-        <h5 class="nav_btn"><a href="#disc">Honors Discrete & Cybersecurity</a></h5>
+        <h5 class="nav_btn"><a href="#disc">Honors Discrete Math & Cybersecurity</a></h5>
     </div>
 
-    <h4 class="dropdown_btn"><a href="#ec">Extracurricular Opportunities</a></h4>
-    <div class="dropdown_container">
+    <h4 class="dropdown_btn" id="side_clubs"><a href="#ec">Extracurricular Opportunities</a></h4>
+    <div class="dropdown_container hidden" id="dropdown_clubs">
         <h5 class="nav_btn"><a href="#robo">Robotics</a></h5>
         <h5 class="nav_btn"><a href="#cyber">Cybersecurity</a></h5>
         <h5 class="nav_btn"><a href="#acsl">Computer Science League</a></h5>
         <h5 class="nav_btn"><a href="#cima">Computing Inspiration & Mentorship Association</a></h5>
     </div>
 
-    <h4 class="dropdown_btn"><a href="#college">Where our students have gone</a></h4>
+    <h4 class="dropdown_btn"><a href="#college_grid">Where our students have gone</a></h4>
 </div>
 
 <div id="overview">
@@ -61,7 +63,7 @@
     </p>
     <div class="text_block">
         <div class="AP_head">
-            <h1 id="csp" class="larger"><a href="https://docs.google.com/document/d/1fe8WqC-8ANao3NeNtd517elGpjtQd-Mb7myZg2J4xYY/edit" target="_blank" rel="noopener noreferrer">AP Computer Science Principles</a></h1>
+            <h1 id="csp" class="large"><a href="https://docs.google.com/document/d/1fe8WqC-8ANao3NeNtd517elGpjtQd-Mb7myZg2J4xYY/edit" target="_blank" rel="noopener noreferrer">AP Computer Science Principles</a></h1>
             <a href="https://apstudents.collegeboard.org/courses/ap-computer-science-principles" target="_blank" rel="noopener noreferrer"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5O3sc1bqUAe1XG8LBYb8_gLjGo7YBRGk4uCpZYdX8fg&s=10" class="ap"></a>
         </div>
         <p id="csp_exp">
@@ -70,7 +72,7 @@
     </div>
     <div class="text_block">
         <div class="AP_head">
-            <h1 id="csa" class="larger"><a href="https://docs.google.com/document/d/1HQrQpz4c7BPawGUj5knEQYSd88lH2uRgwz2KuLSGBWw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">AP Computer Science A</a></h1>
+            <h1 id="csa" class="large"><a href="https://docs.google.com/document/d/1HQrQpz4c7BPawGUj5knEQYSd88lH2uRgwz2KuLSGBWw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">AP Computer Science A</a></h1>
             <a href="https://apstudents.collegeboard.org/courses/ap-computer-science-a" target="_blank" rel="noopener noreferrer"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5O3sc1bqUAe1XG8LBYb8_gLjGo7YBRGk4uCpZYdX8fg&s=10" class="ap"></a>
         </div>
         <p id="csa_exp">
@@ -78,19 +80,19 @@
         </p>
     </div>
     <div class="text_block">
-        <h1 id="dsa" class="larger"><a href="https://docs.google.com/document/d/1EKe8ApCdyGswZcFHimbYrD_YyvYTdRvnyIlS0eeZWWc/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Honors Data Structures and Algorithms</a></h1>
+        <h1 id="dsa" class="large"><a href="https://docs.google.com/document/d/1EKe8ApCdyGswZcFHimbYrD_YyvYTdRvnyIlS0eeZWWc/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Honors Data Structures and Algorithms</a></h1>
         <p id="dsa_exp">
             Juniors take Data Structures & Algorithms, where students build upon their programming foundation and explore more advanced approaches to organizing, processing, and analyzing information. Students study data structures, algorithm design and efficiency, searching and sorting techniques, recursion, and computational problem-solving while applying these concepts through substantial programming projects. The course challenges students to think critically about not only whether a solution works, but also how effectively and efficiently it works.
         </p>
     </div>
     <div class="text_block">
-        <h1 id="capstone" class="larger"><a href="https://docs.google.com/document/d/1VPM1zYZzSlGkjDre80V5IrqwnBAaFGxt4L4tO11R1X0/edit?tab=t.0" target="_blank" rel="noopener noreferrer">Honors Computer Science Senior Capstone: Web, Data, and AI</a></h1>
+        <h1 id="capstone" class="large"><a href="https://docs.google.com/document/d/1VPM1zYZzSlGkjDre80V5IrqwnBAaFGxt4L4tO11R1X0/edit?tab=t.0" target="_blank" rel="noopener noreferrer">Honors Computer Science Senior Capstone: Web, Data, and AI</a></h1>
         <p id="cap_exp">
             The Senior Capstone provides students with an opportunity to bring together the knowledge and skills developed throughout the four-year program. Students work individually or collaboratively to identify a meaningful problem or opportunity and design, develop, test, and present a technology-based solution. Capstone projects may incorporate procedural generation, databases and data analysis, machine learning and artificial intelligence, cybersecurity, or other areas of student interest. Students are expected to document their process, evaluate their solutions, communicate their work, and reflect on the challenges and decisions involved in developing their projects. At the same time students learn web development skills for both front and back end development, database management, and the basic principles of machine learning.
         </p>
     </div>
     <div class="text_block">
-        <h1 id="disc" class="larger"><a href="https://docs.google.com/document/d/1OOcgEaf3etS67lBQ-YZ1VLIybsRjvmGBehnaR_O1wvc/edit?tab=t.0" target="_blank" rel="noopener noreferrer">Honors Discrete Math and Cybersecurity</a></h1>
+        <h1 id="disc" class="large"><a href="https://docs.google.com/document/d/1OOcgEaf3etS67lBQ-YZ1VLIybsRjvmGBehnaR_O1wvc/edit?tab=t.0" target="_blank" rel="noopener noreferrer">Honors Discrete Math and Cybersecurity</a></h1>
         <p id="disc_exp">
             Seniors take a course on Discrete Math and Cybersecurity. Discrete mathematics provides students with mathematical foundations relevant to computer science, including logic, sets, functions, combinatorics, graph theory, probability, and algorithmic reasoning. Students also explore cybersecurity principles and practices.
         </p>
