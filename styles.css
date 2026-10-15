@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(28,69,135);
+    color: white;
+}
+
+#carousel {
+    display: flex;
+    justify-content: center;
+}
+
+#caros {
+    display: flex;
+    align-items: center;
+}
+
+#barrow, #farrow {
+    background-color: goldenrod;
+    color: black;
+    padding: 5px;
+}
+
+#sidebar {
+    background-color: goldenrod;
+    color: black;
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+}
+
+#robo_imgs img {
+    height: 200px;
+    width: auto;
+}
+
+#cyber_imgs img {
+    height: 200px;
+    width: auto;
+}
+
+#acsl_imgs img {
+    height: 200px;
+    width: auto;
+}
+
+.AP_head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ap {
+    position: relative;
+    max-height: 45px;
+    width: auto;
+}
+
+.college img {
+    height: 50px;
+    width: 50px;
+}
+
+.college {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#college_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    align-items: center;
+    gap: 12px;
+}
+
+
+#cd a {
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.collapsed {
+
+}
