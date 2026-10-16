@@ -56,9 +56,12 @@ p {
 }
 
 #menu_btn {
-    display: flex;
-    outline: black solid;
-
+    display: inline-flex;
+    position: fixed;
+    outline: black thin solid;
+    padding: 3px 8px;
+    margin: 10px;
+    color: black;
 }
 
 #fhs {
@@ -108,7 +111,7 @@ p {
     margin-top: 10px;
 }
 
-.nav_btn {
+.nav_btn h5 {
     font-size: 20px;
     font-weight: normal;
     padding: 5px 15px;
@@ -118,6 +121,10 @@ p {
 #sidebar a {
     text-decoration: none;
     color: black;
+}
+
+#top_bar {
+    margin-top: 70px;
 }
 
 
@@ -177,10 +184,15 @@ p {
     color: white;
 }
 
-.hidden {
-    display: none;
+.side_open {
+    margin-left: 18% !important;
 }
 
-.collapsed {
+#main_content_web {
+    margin-left: 3%;
+}
 
+.collapsed_mb {
+    outline-color: white;
+    color: white;
 }

@@ -31,3 +31,9 @@ document.getElementById("side_class").addEventListener("click", function () {
 document.getElementById("side_clubs").addEventListener("click", function () {
     document.getElementById("dropdown_clubs").classList.toggle("hidden")
 });
+
+document.getElementById("menu_btn").addEventListener("click", function () {
+   document.getElementById("sidebar").classList.toggle("hidden");
+   this.classList.toggle("collapsed_mb");
+   document.getElementById("main_content_web").classList.toggle("side_open");
+});
