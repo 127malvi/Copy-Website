@@ -193,6 +193,6 @@ p {
 }
 
 .collapsed_mb {
-    outline-color: white;
-    color: white;
+    outline-color: white !important;
+    color: white !important;
 }
